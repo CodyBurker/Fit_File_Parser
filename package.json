@@ -1,0 +1,19 @@
+{
+  "name": "fit_file_parser",
+  "version": "1.0.0",
+  "description": "Browser-based Node app to upload a zip file and unzip it in memory",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
